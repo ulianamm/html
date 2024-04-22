@@ -3,17 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML формы 1 </title>
+    <title>HTML формы 2</title>
 </head>
 <body>
- <form action="index.html" method="post">
-    <input type="text" name="student_name" placeholder="Плейсхолдер"> <br>
-    <input type="text" name="student_name" value="Value"> <br>
-    <input type="text" name="student_name" disabled placeholder="disabled"> <br>
-    <input type="password" name="student_password"> <br>
-    <textarea name="" id="" cols="30" rows="10" placeholder="Введите текст"></textarea> <br>
-    <input type="button" name="button" value="Кнопка через тег input"> <br>
-    <button type="button"> Кнопка через тег button </button> <br>
- </form>
+    <form action="index.html" method="post">
+        <input type="text" id="name" name="student_name" placeholder="Плейсхолдер"> <br>
+        <label for="name">Это метка для инпута - нажми на меня - и инпут получит фокус!</label> <br>
+        <input type="button" name="button" value="Отправить на сервер"> <br>
+    </form>
 </body>
 </html>
